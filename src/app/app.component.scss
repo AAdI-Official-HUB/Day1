@@ -1,0 +1,103 @@
+body {
+    
+    background-color: #0cbaba  !important;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+
+    height: 100vh;
+  }
+//   .cards {
+//     background-color: #2952b4;
+//     width: 200px;
+//     height: 200px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 5px;
+//   }
+//   .InsideItems {
+//     font-size: 100px;
+//     color: #92a7be;
+//   }
+  
+//   .outerItems {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+//   .card__text {
+//     margin-top: 5px;
+//     color: #92a7be;
+//   }
+//   .row {
+//     // margin: 20px;
+//   }
+//   .container {
+//     margin-top: 0px;
+//     // width: 50% !important;
+//   }
+
+//   .parent{
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: space-evenly;
+//     margin-bottom: 30px;
+//   }
+
+  .top-label{
+    background-color: #5de6de;
+    background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+    color: #92a7be;
+    padding: 25px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+.button{
+  float: right;
+  border-color: #e67913;
+  background: rgb(66, 186, 207);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 17px;
+  border-radius: 20px;
+  cursor: pointer;
+    
+}
+.SIGN_UP{
+color: rgb(255, 255, 255);
+}
+// .f{
+// display: flex;
+// justify-content: center;
+// text-align: center;
+// margin-top: 15rem;
+// flex-direction: column;
+// flex-flow:row wrap;
+// font-size: 70px;
+// font: weight 30px; 
+
+// }
+// .h3{
+//   display: flex;
+//  text-align: center;
+//  margin-top: 30px;
+
+// }
