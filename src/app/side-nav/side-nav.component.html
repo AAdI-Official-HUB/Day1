@@ -1,17 +1,50 @@
-<div id="wrapper">
+<div class="top-label">
+  <div class="topnav">
+    <button (click)="open()">
+      Open
+    </button>
+    <button (click)="close()">close</button>
+    <button class="button">
+      <div class="SIGN_UP">SIGN UP</div>
+    </button>
+    <a class="login" href="#login">Login</a>
+    <a class="active" href="#home">About</a>
+    <a href="#news">Contact</a>
+    <a href="#contact">News</a>
+    <a href="#about">Home</a>
+  </div>
+</div>
+<div class=side>
 
-  <div id="page-content-wrapper">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h1>Increse your website conversion </h1>
-          <h3>Proof helps to deliver conversion rates your websites by displaying recent sales  and opt-in </h3>
+  <div class="parent">
+    <div class="leftSide"  [ngStyle]="{'display': styleExp}" style="width: 500px;" >
+      <div style="background-color: white;height: 100vh;">X</div>
+  </div>
+  <div class="rightSide">
+    <div id="wrapper">
+    <div id="page-content-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="bigBox">
+            <div class="box">
+              <h1>Increase your website conversion </h1>
+              <h3>Proof helps to deliver conversion rates your websites by displaying recent sales  and opt-in </h3>
+            </div>
+  
+          </div>
         </div>
       </div>
     </div>
+    <!-- /#page-content-wrapper -->
+  
   </div>
-  <!-- /#page-content-wrapper -->
-
+  </div>
+  </div>
 </div>
+
+
+
+
+
+
 <!-- /#wrapper -->

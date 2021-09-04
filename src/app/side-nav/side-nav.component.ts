@@ -6,14 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-nav.component.scss']
 })
 export class SideNavComponent implements OnInit {
+  public styleExp = "block";
  showFiller = false;
- //styleExp="400px";
- 
- 
+
   constructor() { }
 
   ngOnInit(): void {
   }
-  //close(){this.styleExp="0px"}
- // open(){this.styleExp="10px"}
+  close(){
+    this.styleExp="none"
+  }
+  open(){
+    this.styleExp="block"
+  }
 }
